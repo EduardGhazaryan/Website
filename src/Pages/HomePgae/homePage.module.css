@@ -1,0 +1,18 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.top{
+    display: flex;
+    width: 100%;
+    padding: 0px 10px;
+    height: 85vh;
+}
+.middle{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

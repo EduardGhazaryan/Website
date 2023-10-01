@@ -1,0 +1,69 @@
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 130px;
+    box-shadow: 1px 1px 15px rgb(204, 204, 204);
+    position: relative;
+    z-index: 2;
+}
+.bg{
+    width: 381px;
+    height: 152px;
+    position: absolute;
+    background-position: left;
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+}
+
+.secondBlock p {
+    font-size: 12.5px;
+    opacity: 0.3;
+    
+}
+.secondBlock h6{
+    width: 100%;
+    border-bottom: 1px dashed black;
+    text-decoration: dashed;
+    margin-bottom: 20px;
+}
+.firstBlock{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.item{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item h5{
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.item p{
+    font-size: 12px;
+    opacity: 0.9;
+}
+.item span{
+    color: rgb(90, 139, 230);
+    font-size: 12px;
+}
+.item img{
+    width: 70%;
+}
+.icons{
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+.icons i{
+    color: gray;
+    font-size: 20px;
+}

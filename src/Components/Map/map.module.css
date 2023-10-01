@@ -1,0 +1,100 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.title{
+    width: 98%;
+    background-color: rgba(240,169,1,.7);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.title h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.inform{
+    width: 40%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 0px 27px;
+    gap: 40px;
+
+}
+.map{
+    width: 60%;
+}
+
+.inform h1{
+    font-size: 18px;
+}
+.infoItems{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 20px;
+}
+.infoItem{
+    width: 100%;
+    display: flex;
+  
+}
+.infoWork{
+    width: 10%;
+}
+.infoText{
+    width: 80%;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(0, 140, 255);
+    opacity: 0.5;
+}
+.infoDone{
+    width: 10%;
+    text-align: end;
+}
+.infoWork img{
+    width: 40%;
+}
+.infoDone img{
+    width:40%;
+}
+.infoText h2{
+    font-size: 18px;
+    font-weight: 900;
+}
+.infoText h4{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.infoItems::-webkit-scrollbar {
+    max-height: 5px;
+    width: 5px;
+  } 
+  
+
+.infoItems::-webkit-scrollbar-track {
+    background: #000000dc;
+  }
+  
+
+.infoItems::-webkit-scrollbar-thumb {
+    background: #2a337c;
+
+  }

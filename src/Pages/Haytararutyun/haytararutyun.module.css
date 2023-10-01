@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    gap: 70px;
+    font-family: cursive;
+}
+.main img{
+    width: 30%;
+}
+.main h1{
+    text-transform: capitalize;
+    font-size: 40px;
+
+}

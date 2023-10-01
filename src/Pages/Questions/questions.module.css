@@ -1,0 +1,22 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.questions{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.title h1{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
